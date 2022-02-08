@@ -1,9 +1,36 @@
+/* Colours
+Yellowy Colour: #C7CA64
+Nav: #131106
+
+*/
+
 *{
     box-sizing: border-box;
 }
 
+body{
+    background: #F0F0F0;
+}
+
 .navbar{
     height: 80px;
+    background: #131106;
+}
+.nav{
+    padding-right: 50px;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #C7CA64;
+    padding-left: 50px;
+}
+
+.nav-link{
+    font-family: 'Gothic A1', sans-serif;
+    color: #C7CA64;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
 }
 
 .container-fluid{
