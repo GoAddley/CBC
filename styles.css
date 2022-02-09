@@ -126,3 +126,35 @@ h2 {
 .list-group-item {
     background-color: transparent; 
 }
+.counselling {
+    background: #F0F0F0;
+    height: auto;
+}
+#counselling-title {
+    color: #5FA54F;
+}
+.row {
+    padding-bottom: 15%;
+}
+.col {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background: #F0F0F0;
+    box-shadow: 5px 7px 10px gray;
+}
+.counselling-card {
+    width: 65% !important;
+}
+h3 {
+    color: #5FA54F;
+    text-align: center;
+}
+.card-text {
+    color: #5FA54F;
+    font-size: 1.4rem;
+}
+.center {
+    text-align: center;
+}
