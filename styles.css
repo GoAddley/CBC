@@ -15,19 +15,22 @@ body {
     background: #0B0A04;
 }
 .nav {
-    padding-right: 50px;
+    padding-right: 10%;
 }
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
     color: #5FA54F;
-    padding-left: 50px;
+    padding-left: 50%;
 }
 .nav-link {
     font-family: 'Gothic A1', sans-serif;
     color: #5FA54F;
     font-size: 1.2rem;
     padding: 0.5rem 1.5rem;
+}
+.nav-link:hover{
+    color: #F0F0F0;
 }
 .container-fluid {
     width: auto;
@@ -55,7 +58,7 @@ body {
     justify-content: center;
 }
 .card {
-    width: 74%;
+    width: 77%;
     background: #0B0A04;
     opacity: 0.85;
     color: #F0F0F0;
@@ -75,10 +78,13 @@ p {
     color: #0B0A04;
     background-color: #5FA54F;
     border: none;
-    margin-left: 15px;
     font-size: 1.4rem;
     font-weight: bolder;
     margin-top: 100px;
+}
+.btn-primary:hover {
+    background: #0B0A04;
+    color: #5FA54F;
 }
 .fab {
     font-weight: 400;
@@ -86,6 +92,7 @@ p {
     margin-left: 3%;
     margin-bottom: 15px;
     color: #5FA54F;
+    cursor: pointer;
 }
 .about-cont {
     background: #BA9F78;
@@ -199,6 +206,10 @@ h3 {
     left: 0;
     height: 19%;
 }
+.btn-secondary:hover {
+    background: #0B0A04;
+    color: #88AD45;
+}
 .form-cont {
     background: #88AD45;
     height: auto;
@@ -219,6 +230,7 @@ textarea {
     background: #F0F0F0;
     border-color: #F0F0F0;
     box-shadow: 2px 2px 3px #0B0A04;
+    padding-left: 15px;
 }
 textarea {
     height: 6rem;
@@ -234,6 +246,9 @@ button {
     font-size: 1.2rem;
     box-shadow: 3px 3px 3px #0B0A04;
 }
+button:hover {
+    color: #88AD45;
+}
 .footer-cont {
     background: #0B0A04;
     height: auto;
@@ -242,22 +257,28 @@ button {
     width: 40%;
     display: flex;
     justify-content: center;
-    padding-top: 3%;
+    padding-top: 2%;
 }
 .footer-text-bold {
     color: #F0F0F0;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-align: center;
 }
 .footer-text {
     color: #F0F0F0;
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding: 2px;
     text-align: center;
+}
+.email:hover {
+    color: #88AD45;
 }
 .footer-icon {
     color: #F0F0F0;
     text-align: center;
     margin: 5px;
+}
+.footer-icon:hover {
+    color: #88AD45;
 }
