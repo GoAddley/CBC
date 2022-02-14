@@ -65,6 +65,7 @@ body {
 }
 .card-title {
     font-family: 'Gothic A1', sans-serif;
+    text-align: center;
     font-size: 3.3rem;
     color: #F0F0F0;
     padding: 15px 15px 0px 15px;
@@ -81,6 +82,7 @@ p {
     font-size: 1.4rem;
     font-weight: bolder;
     margin-top: 100px;
+    width: auto;
 }
 .btn-primary:hover {
     background: #0B0A04;
@@ -89,10 +91,11 @@ p {
 .fab {
     font-weight: 400;
     font-size: 3rem;
-    margin-left: 3%;
     margin-bottom: 15px;
     color: #5FA54F;
     cursor: pointer;
+    text-align: center;
+    display: block !important;
 }
 svg {
     display: none;
@@ -163,6 +166,7 @@ h3 {
 .card-text {
     color: #5FA54F;
     font-size: 1.4rem;
+    text-align: center;
 }
 .center {
     text-align: center;
@@ -285,9 +289,19 @@ button:hover {
 .footer-icon:hover {
     color: #88AD45;
 }
+.thanks {
+    height: 75vh;
+    background: #F0F0F0;
+}
 @media only screen and (max-width: 1540px) {
     .container-sm {
         width: 45%;
+    }
+    .navbar-brand {
+        padding-left: 30%;
+    }
+    .nav {
+        padding-right: 8%;
     }
 }
 @media only screen and (max-width: 1382px) {
@@ -319,9 +333,6 @@ button:hover {
         padding-right: 0%;
         display: none;
     }
-    .btn-primary {
-        width: 46%;
-    }
     svg {
         color: #5FA54F;
         width: 10%;
@@ -338,7 +349,6 @@ button:hover {
     }
     .btn-primary {
         margin-top: 80px;
-        width: 50%;
     }
     .left {
         width: 100%;
@@ -353,10 +363,6 @@ button:hover {
         margin-left: auto;
         margin-right: auto;
     }
-    .container-sm {
-        width: 100%;
-        margin-top: 15%;
-    }
     .col {
         flex: 1 0 100%;
         padding-bottom: 40px;
@@ -367,9 +373,6 @@ button:hover {
     .justify-content-evenly {
         margin-top: 60px;
     }
-    .card-title {
-        font-size: 1.5rem;
-    }
     .form {
         width: 55%;
     }
@@ -379,9 +382,11 @@ button:hover {
         width: 60%;
         margin-top: 30%;
     }
-    .container-sm {
-        width: 100%;
-        margin-top: 25%;
+    .btn-primary {
+        margin-top: 80px;
+    }
+    .card-title {
+        font-size: 2rem;
     }
     .form {
         width: 80%;

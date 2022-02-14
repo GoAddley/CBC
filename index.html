@@ -45,7 +45,7 @@
                 <div class="card-body">
                 <h5 class="card-title">Individual and Family Counseling</h5>
                 <p class="card-text">Based in Ipswich</p>
-                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-facebook-square block"></i>
                 </div>
             </div>
             <a href="#" class="btn btn-primary">Enquire Today!</a>
@@ -200,10 +200,11 @@
         <div class="container-md form">
             <h1 class="h1-form">Make an Appointment</h1>
             <form action="https://formsubmit.co/ashl3y_n@hotmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New Email!">
                 <input type="text" name="name" placeholder="Full Name" required>
-                <input type="hidden" name="_next" value="https://yourdomain.co/thankyou.html">
+                <input type="hidden" name="_next" value="thankyou.html">
                 <input type="email" name="email" placeholder="Email Address" required>
-                <textarea class="form-control" aria-label="With textarea" placeholder="Your message"></textarea>
+                <input type="text" name="message" placeholder="Write your message" required>
                 <button type="submit">Send</button>
              </form>
         </div>
