@@ -51,7 +51,7 @@ body {
     z-index: -1;
 }
 .container-sm {
-    width: 40%;
+    width: 38%;
     margin-top: 12%;
     display: flex;
     flex-wrap: wrap;
@@ -93,6 +93,9 @@ p {
     margin-bottom: 15px;
     color: #5FA54F;
     cursor: pointer;
+}
+svg {
+    display: none;
 }
 .about-cont {
     background: #BA9F78;
@@ -281,4 +284,148 @@ button:hover {
 }
 .footer-icon:hover {
     color: #88AD45;
+}
+@media only screen and (max-width: 1540px) {
+    .container-sm {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 1382px) {
+    .navbar-brand {
+        padding-left: 5%;
+    }
+    .nav {
+        padding-right: 5%;
+    }
+    .container-sm {
+        width: 42%;
+        margin-top: 15%;
+    }
+    .card {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1382px) {
+    .counselling-card {
+        width: 80% !important;
+    }
+}
+@media only screen and (max-width: 994px) {
+    .navbar-brand {
+        padding-left: 1%;
+        font-size: 1.6rem;
+    }
+    .nav {
+        padding-right: 0%;
+        display: none;
+    }
+    .btn-primary {
+        width: 46%;
+    }
+    svg {
+        color: #5FA54F;
+        width: 10%;
+        height: 100%;
+        display: block;
+        cursor: pointer;
+    }
+    .container-sm {
+        width: 50%;
+        margin-top: 25%;
+    }
+    .card-title {
+        font-size: 2.5rem;
+    }
+    .btn-primary {
+        margin-top: 80px;
+        width: 50%;
+    }
+    .left {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .right {
+        width: 100%;
+    }
+    .img-thumbnail {
+        max-width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-sm {
+        width: 100%;
+        margin-top: 15%;
+    }
+    .col {
+        flex: 1 0 100%;
+        padding-bottom: 40px;
+    }
+    .counselling-card {
+        width: 60% !important;
+    }
+    .justify-content-evenly {
+        margin-top: 60px;
+    }
+    .card-title {
+        font-size: 1.5rem;
+    }
+    .form {
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .container-sm {
+        width: 60%;
+        margin-top: 30%;
+    }
+    .container-sm {
+        width: 100%;
+        margin-top: 25%;
+    }
+    .form {
+        width: 80%;
+    }
+    .footer {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .container {
+        height: 75vh;
+    }
+    .container-sm {
+        width: 100%;
+        margin-top: 30%;
+    }
+    .about-cont {
+        height: auto;
+    }
+    .counselling-card {
+        width: 80% !important;
+    }
+    .counselling {
+        height: auto;
+    }
+    .price-cont {
+        height: auto;
+    }
+    .price-card {
+        width: 80% !important;
+    }
+    .form-cont {
+        height: auto;
+    }
+    .form {
+        width: 90%;
+    }
+    .footer {
+        padding-top: 5%;
+    }
+    .footer-cont {
+        height: auto;
+    }
+    .qual {
+        margin-top: 20%;
+    }
 }
