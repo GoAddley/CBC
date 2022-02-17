@@ -361,6 +361,9 @@ button:hover {
         padding-left: 1%;
         font-size: 1.6rem;
     }
+    body {
+        overflow-x: hidden;
+    }
     .nav {
         padding-right: 0%;
         display: block;
