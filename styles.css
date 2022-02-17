@@ -1,11 +1,15 @@
 /* Colours
-Primary-Text-Colour: #5FA54F
-Nav: #0B0A04
+Dark-Green: #5FA54F
+Dark: #0B0A04
 White: #F0F0F0
-background: #BA9F78
+Light-Green: #88AD45
+Brown: #BA9F78
 */
 * {
     box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
 }
 body {
     background: #F0F0F0;
@@ -29,7 +33,10 @@ body {
     font-size: 1.2rem;
     padding: 0.5rem 1.5rem;
 }
-.nav-link:hover{
+.nav-link:visited {
+    color: #5FA54F;
+}
+.nav-link:hover {
     color: #F0F0F0;
 }
 .container-fluid {
@@ -83,6 +90,11 @@ p {
     font-weight: bolder;
     margin-top: 100px;
     width: auto;
+}
+.btn-primary:visited {
+    background: #0B0A04;
+    color: #5FA54F;
+    border-color: #0B0A04;
 }
 .btn-primary:hover {
     background: #0B0A04;
@@ -158,6 +170,15 @@ h2 {
     width: 65% !important;
     background: #F0F0F0;
     box-shadow: 5px 7px 10px gray;
+    right: 50%;
+    opacity: 0.1;
+}
+.counselling-card2 {
+    width: 65% !important;
+    background: #F0F0F0;
+    box-shadow: 5px 7px 10px gray;
+    left: 50%;
+    opacity: 0.1;
 }
 h3 {
     color: #5FA54F;
@@ -174,6 +195,7 @@ h3 {
 .price-cont {
     background: #19381F;
     height: auto;
+    padding-bottom: 5%;
 }
 .price-card {
     box-shadow: 2px 2px 3px lightgrey;
@@ -181,6 +203,7 @@ h3 {
     background: #F0F0F0;
     height: fit-content;
     border: none;
+    opacity: 0.01;
 }
 .price-title {
     color: #F0F0F0;
@@ -303,6 +326,10 @@ button:hover {
     .nav {
         padding-right: 8%;
     }
+    .price-cont{
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
 }
 @media only screen and (max-width: 1382px) {
     .navbar-brand {
@@ -320,8 +347,13 @@ button:hover {
     }
 }
 @media only screen and (max-width: 1382px) {
-    .counselling-card {
+    .counselling-card,
+    .counselling-card2 {
         width: 80% !important;
+    }
+    .price-cont{
+        padding-top: 4%;
+        padding-bottom: 8%;
     }
 }
 @media only screen and (max-width: 994px) {
@@ -345,7 +377,7 @@ button:hover {
         margin-top: 25%;
     }
     .card-title {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     .btn-primary {
         margin-top: 80px;
@@ -367,7 +399,8 @@ button:hover {
         flex: 1 0 100%;
         padding-bottom: 40px;
     }
-    .counselling-card {
+    .counselling-card,
+    .counselling-card2 {
         width: 60% !important;
     }
     .justify-content-evenly {
@@ -386,10 +419,11 @@ button:hover {
         margin-top: 80px;
     }
     .card-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .form {
         width: 80%;
+        padding-top: 10%;
     }
     .footer {
         width: 80%;
@@ -406,7 +440,8 @@ button:hover {
     .about-cont {
         height: auto;
     }
-    .counselling-card {
+    .counselling-card,
+    .counselling-card2 {
         width: 80% !important;
     }
     .counselling {
@@ -423,6 +458,7 @@ button:hover {
     }
     .form {
         width: 90%;
+        padding-top: 15%;
     }
     .footer {
         padding-top: 5%;
