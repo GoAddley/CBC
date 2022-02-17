@@ -63,7 +63,7 @@ body {
 }
 .container-sm {
     width: 38%;
-    margin-top: 12%;
+    margin-top: 7%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -92,7 +92,7 @@ p {
     border: none;
     font-size: 1.4rem;
     font-weight: bolder;
-    margin-top: 100px;
+    margin-top: 80px;
     width: auto;
 }
 .btn-primary:visited {
