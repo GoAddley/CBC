@@ -436,6 +436,9 @@ button:hover {
     }
 }
 @media only screen and (max-width: 769px) {
+    .container {
+        height: 650px;
+    }
     .container-sm {
         width: 60%;
         margin-top: 30%;
