@@ -48,6 +48,9 @@ body {
     height: 100vh;
     max-width: 100vw;
     padding: 0;
+    background-image: url('images/Banner-vid.png');
+    background-size: cover;
+    z-index: -1;
 }
 #vid {
     position: fixed;
@@ -367,9 +370,6 @@ button:hover {
     .nav-item {
         padding: 15px;
     }
-    .intro-card {
-        z-index: -1;
-    }
     .menu-icon {
         height: 80%;
         padding-right: 10px;
@@ -382,6 +382,7 @@ button:hover {
         height: 31vh;
         background: #0B0A04;
         margin-left: 0px;
+        z-index: 1;
     }
     .show-menu {
         left: 0px;
