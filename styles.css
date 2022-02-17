@@ -321,6 +321,9 @@ button:hover {
     background: #F0F0F0;
 }
 @media only screen and (max-width: 1540px) {
+    .container {
+        height: auto;
+    }
     .container-sm {
         width: 45%;
     }
@@ -335,6 +338,9 @@ button:hover {
 @media only screen and (max-width: 1382px) {
     .navbar-brand {
         padding-left: 5%;
+    }
+    .container {
+        height: auto;
     }
     .container-sm {
         width: 42%;
