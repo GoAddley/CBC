@@ -437,14 +437,15 @@ button:hover {
 }
 @media only screen and (max-width: 769px) {
     .container {
-        height: 650px;
+        height: auto;
     }
     .container-sm {
         width: 60%;
         margin-top: 30%;
     }
     .btn-primary {
-        margin-top: 80px;
+        margin-top: 20%;
+        margin-bottom: 50%;
     }
     .card-title {
         font-size: 1.5rem;
