@@ -324,6 +324,10 @@ button:hover {
     .container {
         height: auto;
     }
+    .btn-primary {
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
     .container-sm {
         width: 45%;
     }
@@ -341,6 +345,10 @@ button:hover {
     }
     .container {
         height: auto;
+    }
+    .btn-primary {
+        margin-top: 20%;
+        margin-bottom: 20%;
     }
     .container-sm {
         width: 42%;
