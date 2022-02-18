@@ -63,7 +63,7 @@ body {
 }
 .container-sm {
     width: 38%;
-    margin-top: 7%;
+    margin-top: 12%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -151,10 +151,14 @@ h2 {
 }
 .list-group {
     margin-bottom: 50px;
+    padding: 10px;
 }
 .list-group-item {
     background-color: transparent;
     font-size: 1.1rem;
+}
+.qual {
+    width: 60%;
 }
 .counselling {
     background: #F0F0F0;
@@ -223,7 +227,12 @@ h3 {
 .note {
     color: #F0F0F0;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
+}
+.fees-p {
+    color: #F0F0F0;
+    text-align: center;
+    margin-top: 20px;
 }
 .down {
     margin-top: 12%;
