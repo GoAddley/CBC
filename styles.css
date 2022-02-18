@@ -30,12 +30,21 @@ body {
     color: #5FA54F;
     font-size: 1.2rem;
     padding: 0.5rem 1.5rem;
+    background: 
+    linear-gradient(to right, #0B0A04, #0B0A04),
+    linear-gradient(to right, #5FA54F, #5FA54F, #5FA54F);
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
 .nav-link:visited {
     color: #5FA54F;
 }
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     color: #F0F0F0;
+    background-size: 0 0.1em, 100% 0.1em;
 }
 .drop-down {
     margin-left: 30%;
@@ -50,15 +59,6 @@ body {
     padding: 0;
     background-image: url('images/Banner-vid.png');
     background-size: cover;
-    z-index: -1;
-}
-#vid {
-    position: fixed;
-    object-fit: cover;
-    right: 0;
-    bottom: 0;
-    min-width: 100vw;
-    height: 100%;
     z-index: -1;
 }
 .container-sm {
@@ -297,7 +297,7 @@ button:hover {
     height: auto;
 }
 .footer {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     padding-top: 2%;
@@ -482,7 +482,7 @@ button:hover {
         padding-top: 10%;
     }
     .footer {
-        width: 80%;
+        width: 95%;
     }
     .qual {
         width: 75%;
@@ -501,7 +501,7 @@ button:hover {
     }
     .counselling-card,
     .counselling-card2 {
-        width: 80% !important;
+        width: 95% !important;
     }
     .counselling {
         height: auto;
@@ -510,17 +510,18 @@ button:hover {
         height: auto;
     }
     .price-card {
-        width: 80% !important;
+        width: 95% !important;
     }
     .form-cont {
         height: auto;
     }
     .form {
-        width: 90%;
+        width: 95%;
         padding-top: 15%;
     }
     .footer {
         padding-top: 5%;
+        width: 95%;
     }
     .footer-cont {
         height: auto;

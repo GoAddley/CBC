@@ -16,7 +16,7 @@ function myFunction() {
         card.style.opacity = '1'
         card.style.transition = 'all 1s';
     });
-  } if (document.body.scrollTop > 3600 || document.documentElement.scrollTop > 3600) {
+  } if (document.body.scrollTop > 3650 || document.documentElement.scrollTop > 3650) {
     fees.forEach(fee => {
         fee.style.opacity = '1';
         fee.style.transition = 'all 2s';
