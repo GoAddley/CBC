@@ -2,27 +2,30 @@ const card1 = document.querySelectorAll(".counselling-card");
 const card2 = document.querySelectorAll(".counselling-card2");
 const fees = document.querySelectorAll(".price-card");
 
-window.onscroll = function() {myFunction()};
+const fadeOptions = {
+  threshold: 0.3
+};
 
-function myFunction() {
-  if (document.body.scrollTop > 1750 || document.documentElement.scrollTop > 1750) {  
-    card1.forEach(card => {
-        card.style.right = '0%';
-        card.style.opacity = '1'
-        card.style.transition = 'all 1s';
-    });
-    card2.forEach(card => {
-        card.style.left = '0%';
-        card.style.opacity = '1'
-        card.style.transition = 'all 1s';
-    });
-  } if (document.body.scrollTop > 3650 || document.documentElement.scrollTop > 3650) {
-    fees.forEach(fee => {
-        fee.style.opacity = '1';
-        fee.style.transition = 'all 2s';
-    });
+const fadeOnScroll = new IntersectionObserver(function(entries, fadeOnScroll) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add('appear');
+      fadeOnScroll.unobserve(entry.target);
     }
-}
+  })
+}, fadeOptions);
+
+card1.forEach(card => {
+  fadeOnScroll.observe(card);
+})
+card2.forEach(card => {
+  fadeOnScroll.observe(card);
+})
+fees.forEach(fee => {
+  fadeOnScroll.observe(fee);
+})
 
 const svg = document.querySelector('.menu-icon');
 const drop = document.querySelector('.drop-down');
