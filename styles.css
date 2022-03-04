@@ -63,10 +63,13 @@ body {
 }
 .container-sm {
     width: 38%;
-    margin-top: 23vh;
+    margin-top: 12%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.intro {
+    margin-top: 23vh;
 }
 .card {
     width: 77%;
@@ -118,7 +121,7 @@ svg {
 }
 .about-cont {
     background: #D7BE9A;
-    height: auto;
+    height: auto !important;
 }
 h1 {
     font-family: 'Gothic A1', sans-serif;
@@ -133,7 +136,7 @@ h2 {
     font-size: 2.5rem;
 }
 .container-md {
-    padding-top: 5%;
+    padding-top: 80px;
 }
 .justify-content-evenly {
     margin-top: 80px;
@@ -163,7 +166,7 @@ h2 {
 }
 .counselling {
     background: #F0F0F0;
-    height: auto;
+    height: auto !important;
 }
 #counselling-title {
     color: #5FA54F;
@@ -216,7 +219,7 @@ h3 {
 }
 .price-cont {
     background: #2E6438;
-    height: auto;
+    height: auto !important;
     padding-bottom: 5%;
 }
 .price-card {
@@ -275,7 +278,7 @@ h3 {
 }
 .form-cont {
     background: #ABDA57;
-    height: auto;
+    height: auto !important;
     padding-bottom: 100px;
 }
 .h1-form {
@@ -314,7 +317,7 @@ button:hover {
 }
 .footer-cont {
     background: #181b15;
-    height: auto;
+    height: auto !important;
 }
 .footer {
     width: 50%;
@@ -357,12 +360,11 @@ button:hover {
     .container-sm {
         width: 45%;
     }
+    .intro {
+        margin-top: 23vh;
+    }
     .navbar-brand {
         padding-left: 30%;
-    }
-    .price-cont{
-        padding-top: 2%;
-        padding-bottom: 5%;
     }
 }
 @media only screen and (max-width: 1382px) {
@@ -375,6 +377,10 @@ button:hover {
     }
     .container-sm {
         width: 42%;
+        margin-top: 7%;
+    }
+    .intro {
+        margin-top: 23vh;
     }
     .card {
         width: 100%;
@@ -382,10 +388,6 @@ button:hover {
     .counselling-card,
     .counselling-card2 {
         width: 80% !important;
-    }
-    .price-cont{
-        padding-top: 4%;
-        padding-bottom: 8%;
     }
     .drop-down {
         width: 50%;
@@ -435,10 +437,17 @@ button:hover {
     }
     .container-sm {
         width: 60%;
+        margin-top: 6%;
+    }
+    .intro {
+        margin-top: 23vh;
     }
     .btn-primary {
         margin-top: 20%;
         margin-bottom: 20%;
+    }
+    .qual {
+        margin-top: 10%;
     }
     .left {
         width: 100%;
@@ -468,7 +477,7 @@ button:hover {
         width: 55%;
     }
 }
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 769px) and (orientation: landscape) {
     .container-sm {
         width: 100%;
     }
@@ -485,14 +494,23 @@ button:hover {
     }
     .qual {
         width: 75%;
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .container {
+        height: 85vh;
+    }
+    .container-sm {
+        width: 100%;
+    }
+    .intro {
+        margin-top: 13vh;
     }
 }
 @media only screen and (max-width: 540px) {
     .container-sm {
         width: 100%;
-    }
-    .card-title {
-        font-size: 2.5rem;
     }
     .about-cont {
         height: auto;
@@ -525,6 +543,6 @@ button:hover {
         height: auto;
     }
     .qual {
-        margin-top: 20%;
+        margin-top: 10%;
     }
 }
