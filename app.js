@@ -3,7 +3,7 @@ const card2 = document.querySelectorAll(".counselling-card2");
 const fees = document.querySelectorAll(".price-card");
 
 const fadeOptions = {
-  threshold: 0.3
+  threshold: 0.1
 };
 
 const fadeOnScroll = new IntersectionObserver(function(entries, fadeOnScroll) {
@@ -34,4 +34,4 @@ const menu = document.querySelector('.nav');
 svg.addEventListener("click", () => {
   drop.classList.toggle('show-menu');
   drop.style.transition = 'all 0.6s';
-}); 
+});

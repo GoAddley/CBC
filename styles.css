@@ -63,7 +63,7 @@ body {
 }
 .container-sm {
     width: 38%;
-    margin-top: 12%;
+    margin-top: 23vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -350,9 +350,6 @@ button:hover {
     background: #F0F0F0;
 }
 @media only screen and (max-width: 1540px) {
-    .container {
-        height: auto;
-    }
     .btn-primary {
         margin-top: 20%;
         margin-bottom: 20%;
@@ -372,16 +369,12 @@ button:hover {
     .navbar-brand {
         padding-left: 5%;
     }
-    .container {
-        height: auto;
-    }
     .btn-primary {
         margin-top: 20%;
         margin-bottom: 20%;
     }
     .container-sm {
         width: 42%;
-        margin-top: 7%;
     }
     .card {
         width: 100%;
@@ -400,9 +393,6 @@ button:hover {
     }
 }
 @media only screen and (max-width: 994px) {
-    .container {
-        height: auto;
-    }
     .navbar-brand {
         padding-left: 1%;
         font-size: 1.6rem;
@@ -444,11 +434,7 @@ button:hover {
         cursor: pointer;
     }
     .container-sm {
-        width: 55%;
-        margin-top: 6%;
-    }
-    .card-title {
-        font-size: 1.5rem;
+        width: 60%;
     }
     .btn-primary {
         margin-top: 20%;
@@ -482,20 +468,13 @@ button:hover {
         width: 55%;
     }
 }
-@media only screen and (max-width: 769px) and (orientation: landscape) {
-    .container {
-        height: auto;
-    }
+@media only screen and (max-width: 769px) {
     .container-sm {
-        width: 60%;
-        margin-top: 30%;
+        width: 100%;
     }
     .btn-primary {
         margin-top: 20%;
         margin-bottom: 50%;
-    }
-    .card-title {
-        font-size: 1.5rem;
     }
     .form {
         width: 80%;
@@ -509,12 +488,11 @@ button:hover {
     }
 }
 @media only screen and (max-width: 540px) {
-    .container {
-        height: auto;
-    }
     .container-sm {
         width: 100%;
-        margin-top: 30%;
+    }
+    .card-title {
+        font-size: 2.5rem;
     }
     .about-cont {
         height: auto;
