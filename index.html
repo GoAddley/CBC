@@ -218,10 +218,12 @@
         <div class="container-md form">
             <h1 class="h1-form">Make an Appointment</h1>
             <form action="https://formsubmit.co/ashl3y_n@hotmail.com" method="POST">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_subject" value="New Email!">
                 <input type="text" name="name" placeholder="Full Name" required>
                 <input type="email" name="email" placeholder="Email Address" required>
-                <input type="text" name="message" placeholder="Write your message" required>
+                <textarea class="form-control message" aria-label="With textarea" placeholder="Message" required></textarea>
                 <input type="hidden" name="_next" value="https://cbc-2n3.pages.dev/thankyou.html">
                 <button type="submit">Send</button>
              </form>
