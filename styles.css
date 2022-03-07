@@ -509,7 +509,7 @@ button:hover {
 }
 @media only screen and (max-width: 769px) {
     .container {
-        height: 85vh;
+        height: auto;
     }
     .container-sm {
         width: 100%;
