@@ -135,6 +135,10 @@ svg {
     background: #D7BE9A;
     height: auto !important;
 }
+.about-bg {
+    height: 100px;
+    background-image: linear-gradient(to top, #F0F0F0, #D7BE9A);
+}
 h1 {
     font-family: 'Gothic A1', sans-serif;
     text-align: center;
@@ -159,12 +163,14 @@ h2 {
 }
 .right {
     width: 40%;
+    margin-bottom: 100px;
 }
 .img-fluid {
     box-shadow: 5px 10px 10px #181b15;
 }
 .about-p {
     font-size: 1.2rem;
+    color: #181b15;
 }
 .list-group {
     margin-bottom: 50px;
@@ -181,9 +187,15 @@ h2 {
     background: #F0F0F0;
     height: auto !important;
 }
+.counselling-bg {
+    height: 100px;
+    background-image: linear-gradient(to bottom, #F0F0F0, #2E6438);
+    margin-top:100px;
+}
 #counselling-title {
     color: #5FA54F;
     font-size: 2.5rem;
+    margin-bottom: 100px;
 }
 .row {
     padding-bottom: 5%;
@@ -234,6 +246,7 @@ h3 {
     background: #2E6438;
     height: auto !important;
     padding-bottom: 5%;
+    margin-top: 100px;
 }
 .price-card {
     box-shadow: 2px 2px 3px lightgrey;
@@ -468,6 +481,7 @@ button:hover {
     }
     .right {
         width: 100%;
+        margin-bottom: 0px;
     }
     .img-thumbnail {
         max-width: 40%;
