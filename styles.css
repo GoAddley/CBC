@@ -514,6 +514,9 @@ button:hover {
     }
 }
 @media only screen and (max-width: 769px) {
+    .navbar {
+        height: 55px;
+    }
     .container {
         height: 100vh;
     }
