@@ -34,4 +34,10 @@ const menu = document.querySelector('.nav');
 svg.addEventListener("click", () => {
   drop.classList.toggle('show-menu');
   drop.style.transition = 'all 0.6s';
+  const navLink = document.querySelectorAll('.nav-link');
+  navLink.forEach(link => {
+    link.addEventListener('click', () => {
+      drop.classList.remove('show-menu');
+    });
+  });
 });
