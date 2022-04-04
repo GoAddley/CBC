@@ -66,22 +66,25 @@ body {
     height: 100vh;
     max-width: 100vw;
     padding: 0;
-    background-image: url('images/Banner-vid.png');
+    background-image: url('images/pexels-cottonbro-4098151.jpg');
     background-size: cover;
     background-position: center;
     z-index: -1;
 }
 .container-sm {
-    width: 38%;
+    width: 35%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .card {
-    width: 77%;
     background: #181b15;
     opacity: 0.85;
     color: #F0F0F0;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 2em;
 }
 .card-title {
     font-family: 'Gothic A1', sans-serif;
@@ -97,21 +100,17 @@ p {
 }
 .btn-primary {
     color: #181b15;
-    background-color: #5FA54F;
+    background: #5FA54F;
     border: none;
-    font-size: 1.4rem;
+    font-size: 1.7em;
     font-weight: bolder;
     margin-top: 80px;
     width: auto;
-}
-.btn-primary:visited {
-    background: #181b15;
-    color: #5FA54F;
-    border-color: #181b15;
+    padding: 15px 20px;
 }
 .btn-primary:hover {
-    background: #5FA54F;
-    color: #181b15;
+    background: #181b15;
+    color: #5FA54F;
 }
 .fab {
     font-weight: 400;
