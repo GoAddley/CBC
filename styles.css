@@ -562,6 +562,9 @@ button:hover {
     .price-title {
         font-size: 1.4rem;
     }
+    .recog {
+        font-size: 0.6em;
+    }
 }
 @media only screen and (max-width: 540px) {
     .container-sm {
