@@ -12,7 +12,7 @@ Brown: #BA9F78
 }
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow:hidden;
 }
 body {
     background: #F0F0F0;
