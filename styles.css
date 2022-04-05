@@ -160,7 +160,7 @@ h2 {
     margin-top: 80px;
 }
 .left {
-    width: 30%;
+    width: auto;
 }
 .right {
     width: 40%;
@@ -178,6 +178,12 @@ h2 {
     height: auto;
     position: relative;
     z-index: 1;
+}
+.recog {
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
 }
 .about-p {
     font-size: 1.2rem;
