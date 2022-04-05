@@ -143,6 +143,16 @@ h1 {
     text-align: center;
     color: #F0F0F0;
     margin-top: 40px;
+    position: relative;
+}
+.about-fade {
+    position: absolute;
+    left: -48px;
+    color: #181b15;
+    font-size: 24em;
+    opacity: 0.08;
+    letter-spacing: -50px;
+    margin-top: -153px;
 }
 h2 {
     font-family: 'Gothic A1', sans-serif;
@@ -166,6 +176,16 @@ h2 {
 }
 .img-fluid {
     box-shadow: 5px 10px 10px #181b15;
+}
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
 }
 .about-p {
     font-size: 1.2rem;
@@ -195,6 +215,15 @@ h2 {
     color: #5FA54F;
     font-size: 2.5rem;
     margin-bottom: 100px;
+}
+#services-fade {
+    position: absolute;
+    left: -20px;
+    color: #181b15;
+    font-size: 20em;
+    opacity: 0.04;
+    letter-spacing: -40px;
+    margin-top: -113px;
 }
 .row {
     padding-bottom: 5%;
@@ -282,6 +311,15 @@ h3 {
     text-align: center;
     margin-top: 20px;
 }
+.fees-fade {
+    position: absolute;
+    left: -40px;
+    margin-top: -133px;
+    font-size: 30em;
+    opacity: 0.08;
+    letter-spacing: -40px;
+    color: #F0F0F0;
+}
 .down {
     margin-top: 12%;
     text-align: center;
@@ -311,7 +349,18 @@ h3 {
     margin-top: 0px;
 }
 .form {
-    width: 40%;    
+    width: 40%;
+    z-index: 1;
+    position: relative;   
+}
+.book-fade {
+    position: absolute;
+    left: -40px;
+    margin-top: -42px;
+    color: #181b15;
+    font-size: 30em;
+    opacity: 0.08;
+    letter-spacing: -45px;
 }
 input,
 .message {
