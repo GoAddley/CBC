@@ -12,7 +12,7 @@ Brown: #BA9F78
 }
 html {
     scroll-behavior: smooth;
-    overflow:hidden;
+    overflow-x: hidden;
 }
 body {
     background: #F0F0F0;
@@ -144,15 +144,7 @@ h1 {
     color: #F0F0F0;
     margin-top: 40px;
     position: relative;
-}
-.about-fade {
-    position: absolute;
-    left: -48px;
-    color: #181b15;
-    font-size: 24em;
-    opacity: 0.08;
-    letter-spacing: -50px;
-    margin-top: -153px;
+    font-size: 2.5rem;
 }
 h2 {
     font-family: 'Gothic A1', sans-serif;
@@ -215,15 +207,6 @@ h2 {
     color: #5FA54F;
     font-size: 2.5rem;
     margin-bottom: 100px;
-}
-#services-fade {
-    position: absolute;
-    left: -20px;
-    color: #181b15;
-    font-size: 20em;
-    opacity: 0.04;
-    letter-spacing: -40px;
-    margin-top: -113px;
 }
 .row {
     padding-bottom: 5%;
@@ -311,15 +294,6 @@ h3 {
     text-align: center;
     margin-top: 20px;
 }
-.fees-fade {
-    position: absolute;
-    left: -40px;
-    margin-top: -133px;
-    font-size: 30em;
-    opacity: 0.08;
-    letter-spacing: -40px;
-    color: #F0F0F0;
-}
 .down {
     margin-top: 12%;
     text-align: center;
@@ -352,15 +326,6 @@ h3 {
     width: 40%;
     z-index: 1;
     position: relative;   
-}
-.book-fade {
-    position: absolute;
-    left: -40px;
-    margin-top: -42px;
-    color: #181b15;
-    font-size: 30em;
-    opacity: 0.08;
-    letter-spacing: -45px;
 }
 input,
 .message {
@@ -590,22 +555,6 @@ button:hover {
     }
     .price-title {
         font-size: 1.4rem;
-    }
-    .about-fade {
-        font-size: 21em;
-        margin-top: -133px;
-    }
-    #services-fade {
-        font-size: 15.4em;
-        margin-top: -99px;
-    }
-    .fees-fade {
-        margin-top: -120px;
-        font-size: 24em;
-    }
-    .book-fade {
-        margin-top: -35px;
-        font-size: 22.7em;
     }
 }
 @media only screen and (max-width: 540px) {
