@@ -166,6 +166,9 @@ h2 {
     font-size: 1.5rem;
     width: 100%;
 }
+a {
+    text-decoration: none;
+}
 .container-md {
     padding-top: 80px;
 }
