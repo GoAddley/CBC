@@ -153,6 +153,11 @@ h2 {
     margin-bottom: 50px;
     font-size: 2.5rem;
 }
+.seal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .creds {
     font-family: 'Gothic A1', sans-serif;
     text-align: center;
@@ -207,8 +212,9 @@ h2 {
     border: none;
 }
 .qual {
-    width: 60%;
+    width: 33.33333333%;
 }
+
 .counselling {
     background: #F0F0F0;
     height: auto !important;
@@ -276,7 +282,7 @@ h3 {
 }
 .price-card {
     box-shadow: 2px 2px 3px lightgrey;
-    width: 65% !important;
+    width: 45.5% !important;
     background: #F0F0F0;
     height: fit-content;
     border: none;
@@ -335,12 +341,26 @@ h3 {
 }
 .h1-form {
     margin-bottom: 80px;
-    margin-top: 0px;
+    margin-top: 0px; 
+}
+.book-link {
+    font-family: 'Gothic A1', sans-serif;
+    color: #F0F0F0;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.btn-link {
+    text-decoration: none;
+}
+.book-link:hover {
+    color: #ABDA57;
 }
 .form {
-    width: 40%;
+    width: 35%;
     z-index: 1;
-    position: relative;   
+    position: relative;
+    text-align: center;
 }
 input,
 .message {
@@ -435,7 +455,7 @@ button:hover {
         margin-bottom: 20%;
     }
     .container-sm {
-        width: 42%;
+        width: 45%;
     }
     .card {
         width: 100%;
@@ -448,6 +468,7 @@ button:hover {
         width: 50%;
         margin-left: 13%;
     }
+    
 }
 @media only screen and (max-width: 994px) {
     .navbar-brand {
@@ -531,6 +552,9 @@ button:hover {
     .form {
         width: 55%;
     }
+    .price-card {
+        width: 65% !important;
+    }
 }
 @media only screen and (max-width: 769px) and (orientation: landscape) {
     .intro {
@@ -549,10 +573,6 @@ button:hover {
     }
     .footer {
         width: 95%;
-    }
-    .qual {
-        width: 75%;
-        margin-top: 10%;
     }
 }
 @media only screen and (max-width: 769px) {
@@ -573,6 +593,20 @@ button:hover {
     }
     .recog {
         font-size: 0.6em;
+    }
+    .qual {
+        width: 75%;
+        margin-top: 10%;
+    }
+    .aca {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 @media only screen and (max-width: 540px) {
