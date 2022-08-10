@@ -153,6 +153,14 @@ h2 {
     margin-bottom: 50px;
     font-size: 2.5rem;
 }
+.creds {
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+    color: #F0F0F0;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    width: 100%;
+}
 .container-md {
     padding-top: 80px;
 }
@@ -196,6 +204,7 @@ h2 {
 .list-group-item {
     background-color: transparent;
     font-size: 1.1rem;
+    border: none;
 }
 .qual {
     width: 60%;
