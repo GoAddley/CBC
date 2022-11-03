@@ -98,6 +98,24 @@ p {
     font-size: 1.8rem;
     color: #F0F0F0;
 }
+.podcast{
+    color: #F0F0F0;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+}
+.podcast:hover{
+    color: #DF2935;
+}
+.fa-youtube {
+    color: #DF2935;
+    font-size: 2rem;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.fa-youtube:hover {
+    color: #F0F0F0;
+}
 .btn-primary {
     color: #181b15;
     background: #5FA54F;
@@ -112,7 +130,7 @@ p {
     background: #181b15;
     color: #5FA54F;
 }
-.fab {
+.fa-facebook-square {
     font-weight: 400;
     font-size: 3rem;
     margin-bottom: 15px;
