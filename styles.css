@@ -772,7 +772,7 @@ button:hover {
     .fa-youtube {
         color: #DF2935;
         font-size: 2rem;
-        margin-top: 0px;
+        margin-top: -4px;
         margin-left: 15px;
     }
     .yt-icon2{
