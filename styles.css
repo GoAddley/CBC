@@ -306,7 +306,6 @@ a {
     background: #181b15;
     height: auto !important;
     padding-bottom: 5%;
-    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -324,6 +323,38 @@ a {
 .podcast-link{
     width: 100%;
     text-align: center;
+}
+.cosp {
+    height: auto;
+    max-width: 100vw;
+    padding: 0;
+    background-image: url('images/cosp-background.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.cosp-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.h2-cosp{
+    padding-top: 50px;
+    color: #181b15;
+}
+.cosp-p{
+    color: #181b15;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 30px;
+    padding-left: 0px;
+}
+.cosp-list{
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 h3 {
     color: #5FA54F;
@@ -624,6 +655,15 @@ button:hover {
     .price-card {
         width: 80% !important;
     }
+    .cosp-p{
+        color: #181b15;
+        font-size: 1.1rem;
+        font-weight: 400;
+        text-align: center;
+        width: 80%;
+        margin-bottom: 30px;
+        padding-left: 0px;
+    }
 }
 @media only screen and (max-width: 769px) and (orientation: landscape) {
     .intro {
@@ -679,6 +719,12 @@ button:hover {
     }
     .btn-link {
         width: 60%;
+    }
+    .cosp{
+        height: auto;
+    }
+    .cosp-list-cont{
+        width: 80%;
     }
 }
 @media only screen and (max-width: 540px) {
@@ -748,6 +794,9 @@ button:hover {
     .links-div {
         display: flex;
         flex-direction: column;
+        text-align: center;
+    }
+    .h4-cosp{
         text-align: center;
     }
 }
