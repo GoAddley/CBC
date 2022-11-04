@@ -1,5 +1,6 @@
 const card1 = document.querySelectorAll(".counselling-card");
 const card2 = document.querySelectorAll(".counselling-card2");
+const card3 = document.querySelectorAll(".counselling-card3");
 const fees = document.querySelectorAll(".price-card");
 
 const fadeOptions = {
@@ -21,6 +22,9 @@ card1.forEach(card => {
   fadeOnScroll.observe(card);
 })
 card2.forEach(card => {
+  fadeOnScroll.observe(card);
+})
+card3.forEach(card => {
   fadeOnScroll.observe(card);
 })
 fees.forEach(fee => {
