@@ -76,6 +76,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .card {
     background: #181b15;
@@ -84,7 +86,6 @@ body {
 }
 .card-body {
     flex: 1 1 auto;
-    padding: 1em;
 }
 .card-title {
     font-family: 'Gothic A1', sans-serif;
