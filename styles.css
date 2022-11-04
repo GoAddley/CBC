@@ -373,12 +373,13 @@ h3 {
 }
 .btn-link {
     text-decoration: none;
+    width: 40%;
 }
 .book-link:hover {
     color: #ABDA57;
 }
 .form {
-    width: 35%;
+    width: 45%;
     z-index: 1;
     position: relative;
     text-align: center;
@@ -466,6 +467,9 @@ button:hover {
     .navbar-brand {
         padding-left: 30%;
     }
+    .btn-link {
+        width: 65%;
+    }
 }
 @media only screen and (max-width: 1382px) {
     .navbar-brand {
@@ -489,7 +493,9 @@ button:hover {
         width: 50%;
         margin-left: 13%;
     }
-    
+    .btn-link {
+        width: 60%;
+    }
 }
 @media only screen and (max-width: 994px) {
     .navbar-brand {
@@ -565,16 +571,16 @@ button:hover {
     }
     .counselling-card,
     .counselling-card2 {
-        width: 60% !important;
+        width: 80% !important;
     }
     .justify-content-evenly {
         margin-top: 60px;
     }
     .form {
-        width: 55%;
+        width: 100%;
     }
     .price-card {
-        width: 65% !important;
+        width: 80% !important;
     }
 }
 @media only screen and (max-width: 769px) and (orientation: landscape) {
@@ -629,6 +635,9 @@ button:hover {
         margin-left: auto;
         margin-right: auto;
     }
+    .btn-link {
+        width: 60%;
+    }
 }
 @media only screen and (max-width: 540px) {
     .container-sm {
@@ -666,5 +675,7 @@ button:hover {
     }
     .qual {
         margin-top: 10%;
+    }.btn-link {
+        width: 100%;
     }
 }
