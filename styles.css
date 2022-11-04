@@ -678,4 +678,13 @@ button:hover {
     }.btn-link {
         width: 100%;
     }
+    .podcast {
+        font-size: 1.2rem;
+    }
+    .fa-youtube {
+        color: #DF2935;
+        font-size: 2rem;
+        margin-top: 0px;
+        margin-left: 15px;
+    }
 }
