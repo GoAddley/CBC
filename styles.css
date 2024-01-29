@@ -232,11 +232,14 @@ a {
     background-color: transparent;
     font-size: 1.1rem;
     border: none;
+    color: #181b15;
 }
 .qual {
     width: 33.33333333%;
 }
-
+.h4-cosp{
+    color: #181b15;
+}
 .counselling {
     background: #F0F0F0;
     height: auto !important;
@@ -356,6 +359,7 @@ a {
 .cosp-list{
     font-size: 1.1rem;
     font-weight: 400;
+    color: #181b15;
 }
 h3 {
     color: #5FA54F;
